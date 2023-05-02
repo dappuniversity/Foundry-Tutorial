@@ -2,9 +2,9 @@
 // pragma solidity ^0.8.13;
 
 // import "forge-std/Script.sol";
-// import { Counter } from "src/Counter.sol";
+// import { Number } from "src/Number.sol";
 
-// contract CounterScript is Script {
+// contract NumberScript is Script {
 //     function setUp() public {}
 
 //     // run is the entry point
@@ -12,7 +12,7 @@
 //         // startBroadcast and stopBraodcast will let us execute transactions anything between them
 //         vm.startBroadcast();
 //         // here we just need to deploy a new contract
-//         new Counter(0);
+//         new Number(0);
 //         vm.stopBroadcast();
 //     }
 // }
