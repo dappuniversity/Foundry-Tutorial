@@ -1,0 +1,18 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+
+# I think this is how you set the solidity version 
+solc_version = '0.8.13'
+
+# Configuration for Fuzz Testing
+[fuzz]
+runs = 690
+# seed is the number used as base for random number generation for fuzz testing (the fuzz campaign)
+# By setting the seed value to a specific value, the same sequence of random inputs can be generated each time the fuzz test is run,
+# which can be useful for debugging and reproducing issues.
+# On the other hand, setting the seed value to a random value can help to ensure that the fuzz test is exploring a wide range of inputs
+seed = 1
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
